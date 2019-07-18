@@ -14,17 +14,20 @@ h1{
   font-size:59px;
   text-align: left;
   max-width: 60%;
+  line-height: 64px;
   overflow:hidden;
 }
 
 .header{
-  padding-left: 80px;
   padding-top: 20px;
 }
 
 .welcomeContent{
-  padding-left: 80px;
-  padding-top: 200px;
+  padding-top: 166px;
+}
+
+.pageContainer{
+  margin-left: 120px;
 }
 
 @font-face {
