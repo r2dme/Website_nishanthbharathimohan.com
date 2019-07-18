@@ -39,6 +39,6 @@ h1{
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
