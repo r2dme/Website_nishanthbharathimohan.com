@@ -28,6 +28,10 @@ h2{
   line-height: 1.7;
 }
 
+h2.emailto{
+  text-decoration: underline;
+}
+
 .header{
   padding-top: 20px;
 }
