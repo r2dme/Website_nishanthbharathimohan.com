@@ -34,8 +34,8 @@ h2.emailto{
 }
 
 h2.pageNavigation{
-  margin-left: 70%;
-  padding-right: 20px;
+  float: right;
+  padding-right: 30px;
   position:absolute;
   display: inline-block;
   text-align: right;
