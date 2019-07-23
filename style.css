@@ -39,6 +39,7 @@ h2.pageNavigation{
   position:absolute;
   display: inline-block;
   text-align: right;
+  align-self: center;
 }
 
 img.logo{
