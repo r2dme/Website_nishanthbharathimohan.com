@@ -22,6 +22,7 @@ h2{
   color: black;
   font-weight: 400;
   font-size: 18px;
+  max-width: 60%;
   overflow: hidden;
   line-height: 1.7;
   display:inline-block;
@@ -30,7 +31,6 @@ h2{
 h2.emailto{
   text-decoration: underline;
   text-align: left;
-  max-width: 60%;
 }
 
 h2.pageNavigation{
