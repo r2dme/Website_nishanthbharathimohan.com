@@ -26,6 +26,7 @@ h2{
   max-width: 60%;
   overflow: hidden;
   line-height: 1.7;
+  display:inline-block;
 }
 
 h2.emailto{
@@ -36,12 +37,12 @@ h2.pageNavigation{
   text-align: right;
   padding-right: 20px;
   position:absolute;
-  display: inline;
+  display: inline-block;
 }
 
 .header{
   padding-top: 20px;
-  display: inline;
+  display: inline-block;
 }
 
 .heroWrapper{
