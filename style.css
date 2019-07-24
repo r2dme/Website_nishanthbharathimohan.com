@@ -39,6 +39,7 @@ h2.pageNavigation{
   display: inline-block;
   text-align: right;
   align-self: center;
+  padding-bottom: 6px;
 }
 
 img.logo{
