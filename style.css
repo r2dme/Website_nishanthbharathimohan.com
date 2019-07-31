@@ -73,17 +73,17 @@ img.logo{
 }
 
 .safeApp{
-  max-height: 900px;
-}
-
-.workGrid{
-  display: inline-grid;
+  display: grid;
   width:80%;
   height: 422px;
   padding-left: 10%;
   padding-right: 10%;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.workGrid{
+  max-height: 900px;
 }
 
 .AppSideImage{
