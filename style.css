@@ -79,7 +79,7 @@ img.logo{
   height: 422px;
   padding-left: 10%;
   padding-right: 10%;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -89,7 +89,7 @@ img.logo{
 
 .AppSideImage{
   max-height: 500px;
-  grid-area: 1 / 1 / span 1 / span 2;
+  grid-area: 1 / 1 / span 2 / span 1;
 }
 
 .AppScreenshots{
@@ -114,6 +114,15 @@ img.logo{
 
 .recentWorks{
   background-color: #F2F3F4;
+}
+
+.sectionTitle{
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.workTitle{
+  padding-left: 3%;
 }
 
 @font-face {
