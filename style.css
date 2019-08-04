@@ -105,7 +105,7 @@ img.logo{
 @media only screen and (max-width:425px), (orientation:portrait) {
 
   a{
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   h1{
@@ -148,12 +148,14 @@ img.logo{
     display: none;
   }
 
-  .mobileEmail{
-    padding: 6px;
-    border: 1px solid #000;
+  .emailto{
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
     text-decoration: none;
     text-align: left;
-    float: left;
   }
 
   .heroWrapper{
