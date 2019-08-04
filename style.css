@@ -33,6 +33,12 @@ p{
   font-size: 20px;
 }
 
+.pageContainer{
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 100px;
+}
+
 p.pageNavigation{
   position: relative;
   display: inline-block;
@@ -73,56 +79,20 @@ img.logo{
   padding-bottom: 200px;
 }
 
-.safeAppImages{
-  display: grid;
-  width:80%;
-  height: 422px;
+.workPreview{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
 }
 
-.safeApp{
-  max-height: 900px;
-}
-
-.AppSideImage{
-  max-height: 500px;
-  grid-area: 1 / 1 / span 2 / span 1;
-}
-
-.AppScreenshots{
-  max-height: 250px;
-  grid-area: 1 / 2 / span 1 / span 1;
-}
-
-.AppVideo{
-  max-height: 500px;
-  grid-area: 1 / 3/ span 2 / span 2;
-}
-
-.AppLogo{
-  max-height: 250px;
-  grid-area: 2 / 2 / span 1 / span 1;
-}
-
-.pageContainer{
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
-.recentWorks{
-  background-color: #F2F3F4;
-}
-
-.sectionTitle{
-  padding-left: 3%;
-  padding-top: 3%;
-}
-
-.workTitle{
-  padding-left: 3%;
+.workItem{
+  margin: 20px;
+  max-width: 480px;
+  box-sizing: border-box;
 }
 
 @font-face {
