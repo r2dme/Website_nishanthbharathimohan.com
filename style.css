@@ -114,7 +114,7 @@ img.logo{
     font-weight: 600;
     font-size:1.75em;
     text-align: left;
-    max-width: 65%;
+    max-width: 75%;
     overflow:hidden;
   }
 
@@ -132,26 +132,28 @@ img.logo{
     color: black;
     font-weight: 400;
     font-size: 0.9em;
-    max-width: 65%;
+    max-width: 75%;
     overflow: hidden;
     line-height: 1.7;
   }
 
   p{
     font-family: 'Montserrat',sans-serif;
+    color: black;
     font-weight: 400;
     font-size: 0.9em;
   }
 
-  .emailto{
-    font-family: 'Montserrat',sans-serif;
-    color: black;
-    font-weight: 400;
-    font-size: 0.9em;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000;
+  .desktopEmail{
+    display: none;
+  }
+
+  .mobileEmail{
+    padding: 6px;
+    border: 1px solid #000;
     text-decoration: none;
     text-align: left;
+    float: left;
   }
 
   .heroWrapper{
@@ -179,6 +181,15 @@ img.logo{
   .logo{
     width: 30px;
     height:30px;
+  }
+}
+
+
+/* media query for screens larger than mobile*/
+@media only screen and (min-width:426px) {
+
+  .mobileEmail{
+    display:none;
   }
 }
 
