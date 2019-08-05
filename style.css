@@ -105,12 +105,11 @@ img.logo{
   max-height: 130px;
 }
 
-p.footer{
-  position: relative;
+p.copyright{
+  margin-top: 80px;
   display: inline-block;
-  text-align: right;
-  float:right;
-  font-size: 0.5em;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 /* media query for mobile screens */
@@ -198,8 +197,8 @@ p.footer{
     height: 150px;
   }
 
-  p.footer{
-    position: relative;
+  p.copyright{
+    margin-top: 80px;
     display: inline-block;
     text-align: right;
     float:right;
