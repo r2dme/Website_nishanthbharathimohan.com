@@ -108,8 +108,8 @@ img.logo{
 p.copyright{
   margin-top: 80px;
   display: inline-block;
-  text-align: center;
-  font-size: 0.7em;
+  text-align: right;
+  font-size: 0.9em;
 }
 
 /* media query for mobile screens */
@@ -200,7 +200,7 @@ p.copyright{
   p.copyright{
     margin-top: 80px;
     display: inline-block;
-    text-align: right;
+    text-align: center;
     float:right;
     font-size: 0.7em;
   }
