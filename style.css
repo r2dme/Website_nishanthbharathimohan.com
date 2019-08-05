@@ -107,7 +107,6 @@ img.logo{
 
 p.copyright{
   margin-top: 80px;
-  display: inline-block;
   text-align: right;
   font-size: 0.9em;
 }
@@ -199,7 +198,6 @@ p.copyright{
 
   p.copyright{
     margin-top: 80px;
-    display: inline-block;
     text-align: center;
     float:right;
     font-size: 0.7em;
