@@ -106,8 +106,11 @@ img.logo{
 }
 
 p.footer{
+  position: relative;
+  display: inline-block;
+  text-align: right;
   float:right;
-  font-size: 0.8em;
+  font-size: 0.5em;
 }
 
 /* media query for mobile screens */
@@ -192,13 +195,15 @@ p.footer{
   }
 
   .footer{
-    max-height: 80px;
+    height: 150px;
   }
 
   p.footer{
-    float:none;
-    text-align:center;
-    font-size: 0.8em;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    float:right;
+    font-size: 0.7em;
   }
 }
 
