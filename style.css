@@ -247,11 +247,12 @@ p.copyright{
   .profileImageMob{
     max-width: 65%;
     overflow: hidden;
+    max-height: 300px;
   }
 
   .aboutMeMob{
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
