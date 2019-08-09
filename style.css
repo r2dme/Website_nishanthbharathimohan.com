@@ -51,6 +51,7 @@ p.pageNavigation{
   float: right;
   margin-bottom: 0px;
   margin-top: 10px;
+  color: black;
 }
 
 .emailto{
@@ -109,6 +110,26 @@ p.copyright{
   margin-top: 80px;
   text-align: right;
   font-size: 0.9em;
+}
+
+/* About page */
+.introDesk{
+  padding-top: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profileImageDesk{
+  max-width: 30%;
+  overflow: hidden;
+}
+
+.aboutMeDesk{
+  text-align: center;
+  max-width: 70%;
 }
 
 /* media query for mobile screens */
@@ -201,6 +222,37 @@ p.copyright{
     text-align: center;
     font-size: 0.7em;
   }
+
+  .introDesk{
+    display: none;
+  }
+
+  .profileImageDesk{
+    display: none;
+  }
+
+  .aboutMeDesk{
+    display: none;
+  }
+
+  .introMob{
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profileImageMob{
+    max-width: 65%;
+    overflow: hidden;
+  }
+
+  .aboutMeMob{
+    text-align: center;
+    max-width: 80%;
+  }
 }
 
 
@@ -209,6 +261,18 @@ p.copyright{
 
   .mobileEmail{
     display:none;
+  }
+
+  .introMob{
+    display: none;
+  }
+
+  .profileImageMob{
+    display: none;
+  }
+
+  .aboutMeMob{
+    display: none;
   }
 }
 
