@@ -123,8 +123,9 @@ p.copyright{
 }
 
 .profileImageDesk{
-  max-width: 30%;
+  max-width: 100%;
   overflow: hidden;
+  padding: 0% 10% 0% 10%;
 }
 
 .aboutMeDesk{
@@ -245,7 +246,7 @@ p.copyright{
   }
 
   .profileImageMob{
-    max-width: 65%;
+    max-width: 100%;
     overflow: hidden;
     max-height: 300px;
   }
