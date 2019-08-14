@@ -149,6 +149,7 @@ img.companyLogo{
 
 p.companyTitle{
   padding-left:5px;
+  display: inline;
 }
 
 p.duration{
