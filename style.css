@@ -143,13 +143,18 @@ p.copyright{
   padding-top: 90px;
 }
 
+.sectionTitle{
+  padding-bottom: 1.8em;
+}
+
 img.companyLogo{
   display: inline-block;
 }
 
 p.companyTitle{
-  padding-left:5px;
+  padding-left:1em;
   display: inline;
+  vertical-align: super;
 }
 
 p.duration{
@@ -157,10 +162,14 @@ p.duration{
   display: inline-block;
   float: right;
   margin-right: 10%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 p.jobDescription{
-  padding-left: 35px;
+  padding-left: 2.85em;
+  margin-top: 0.95em;
+  margin-bottom:1.25em;
 }
 
 /* media query for mobile screens */
