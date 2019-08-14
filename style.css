@@ -139,6 +139,29 @@ p.copyright{
   max-width: 90%;
 }
 
+.workExp{
+  padding-top: 90px;
+}
+
+img.companyLogo{
+  display: inline-block;
+}
+
+p.companyTitle{
+  padding-left:5px;
+}
+
+p.duration{
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+}
+
+p.jobDescription{
+  padding-left: 35px;
+}
+
 /* media query for mobile screens */
 @media only screen and (max-width:425px), (orientation:portrait) {
 
