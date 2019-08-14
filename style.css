@@ -5,7 +5,6 @@ h1{
   font-weight: 600;
   font-size:3.37em;
   text-align: left;
-  max-width: 65%;
   overflow:hidden;
 }
 
@@ -23,7 +22,6 @@ h4{
   color: black;
   font-weight: 400;
   font-size: 1.25em;
-  max-width: 65%;
   overflow: hidden;
   line-height: 1.7;
 }
@@ -43,6 +41,14 @@ img{
   margin-left: 7%;
   margin-right: 7%;
   padding-bottom: 20px;
+}
+
+.welcomeText{
+  max-width: 65%;
+}
+
+.introductionText{
+  max-width: 65%;
 }
 
 p.pageNavigation{
@@ -130,7 +136,7 @@ p.copyright{
 
 .aboutMeDesk{
   text-align: center;
-  max-width: 85%;
+  max-width: 90%;
 }
 
 /* media query for mobile screens */
@@ -142,7 +148,6 @@ p.copyright{
     font-weight: 600;
     font-size:1.75em;
     text-align: left;
-    max-width: 75%;
     overflow:hidden;
   }
 
@@ -160,7 +165,6 @@ p.copyright{
     color: black;
     font-weight: 400;
     font-size: 0.9em;
-    max-width: 75%;
     overflow: hidden;
     line-height: 1.7;
   }
@@ -170,6 +174,14 @@ p.copyright{
     color: black;
     font-weight: 400;
     font-size: 0.9em;
+  }
+
+  .welcomeText{
+    max-width: 75%;
+  }
+
+  .introductionText{
+    max-width: 75%;
   }
 
   .desktopEmail{
@@ -223,6 +235,8 @@ p.copyright{
     text-align: center;
     font-size: 0.7em;
   }
+
+/* About page - mobile*/
 
   .introDesk{
     display: none;
