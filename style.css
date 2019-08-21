@@ -193,13 +193,12 @@ p.duration{
   position: relative;
   display: inline-block;
   float: right;
-  margin-right: 10%;
   margin-top: 6px;
   margin-bottom: 0px;
 }
 
 p.jobDescription{
-  padding-left: 2.85em;
+  padding-left: 2.75em;
   margin-top: 0.6em;
   margin-bottom:1.25em;
 }
