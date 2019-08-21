@@ -143,6 +143,10 @@ p.copyright{
   padding-top: 90px;
 }
 
+.workPlace{
+  padding-bottom: 25px;
+}
+
 .sectionTitle{
   padding-bottom: 1.8em;
 }
@@ -162,7 +166,7 @@ p.duration{
   display: inline-block;
   float: right;
   margin-right: 10%;
-  margin-top: 0px;
+  margin-top: 6px;
   margin-bottom: 0px;
 }
 
