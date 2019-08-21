@@ -139,16 +139,44 @@ p.copyright{
   max-width: 90%;
 }
 
+/* Education Section */
+
+.Education{
+  padding-top: 90px;
+}
+
+.educationPlace{
+  padding-bottom: 2em;
+}
+
+img.UniversityLogo{
+  display: inline-block;
+}
+
+p.UniversityTitle{
+  padding-left:1em;
+  display: inline;
+  vertical-align: super;
+}
+
+p.Degree{
+  padding-left: 2.85em;
+  margin-top: 0.6em;
+  margin-bottom:1.25em;
+}
+
+/* Work Section */
+
 .workExp{
   padding-top: 90px;
 }
 
 .workPlace{
-  padding-bottom: 25px;
+  padding-bottom: 2em;
 }
 
 .sectionTitle{
-  padding-bottom: 1.8em;
+  padding-bottom: 1em;
 }
 
 img.companyLogo{
@@ -172,7 +200,7 @@ p.duration{
 
 p.jobDescription{
   padding-left: 2.85em;
-  margin-top: 0.95em;
+  margin-top: 0.6em;
   margin-bottom:1.25em;
 }
 
