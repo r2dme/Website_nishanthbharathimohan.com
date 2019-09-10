@@ -349,9 +349,7 @@ p.jobDescription{
   }
 
   p.duration{
-    display: inline-block;
-    margin-top: 6px;
-    margin-bottom: 0px;
+    display: block;
   }
 }
 
