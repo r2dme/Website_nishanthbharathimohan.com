@@ -169,6 +169,7 @@ p.Degree{
 
 .workExp{
   padding-top: 90px;
+  display:inline-block;
 }
 
 .workPlace{
@@ -333,8 +334,15 @@ p.jobDescription{
     max-width: 100%;
   }
 
+  .workExp{
+    display: none;
+  }
+
+  .workExpMob{
+    display: inline-block;
+  }
+
   p.duration{
-    position: relative;
     display: inline-block;
     margin-top: 6px;
     margin-bottom: 0px;
@@ -358,6 +366,10 @@ p.jobDescription{
   }
 
   .aboutMeMob{
+    display: none;
+  }
+
+  .workExpMob{
     display: none;
   }
 }
