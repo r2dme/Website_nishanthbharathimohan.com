@@ -342,6 +342,12 @@ p.jobDescription{
     display: inline-block;
   }
 
+  p.jobDescription{
+    padding-left: 3em;
+    margin-top: 0.6em;
+    margin-bottom:1.25em;
+  }
+
   p.duration{
     display: inline-block;
     margin-top: 6px;
