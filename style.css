@@ -343,13 +343,15 @@ p.jobDescription{
   }
 
   p.jobDescription{
-    padding-left: 3em;
+    padding-left: 3.4em;
     margin-top: 0.6em;
-    margin-bottom:1.25em;
+    margin-bottom:1em;
   }
 
   p.duration{
     display: block;
+    float: left;
+    padding-left: 3.4em;
   }
 }
 
