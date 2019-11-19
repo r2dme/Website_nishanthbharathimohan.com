@@ -104,6 +104,30 @@ img.logo{
   box-sizing: border-box;
   box-shadow: 0 15px 15px rgba(0,0,0,.08);
   overflow: hidden;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.workItem:hover {
+  margin: 20px;
+  max-width: calc(100% * 1 / 4.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 15px rgba(0,0,0,.08);
+  overflow: hidden;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);  
 }
 
 .footer{
