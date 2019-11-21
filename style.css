@@ -422,13 +422,6 @@ p.jobDescription{
   	text-align:center;
   	color: #FFF;
   }
-
-  p.workDesc{
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 400;
-    font-size: 1em !important;
-    margin: 0.7em !important;
-  }
 }
 
 @font-face {
