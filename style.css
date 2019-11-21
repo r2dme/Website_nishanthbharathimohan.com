@@ -209,6 +209,8 @@ p.jobDescription{
   margin-bottom:1.25em;
 }
 
+}
+
 /* media query for mobile screens */
 @media only screen and (max-width:425px), (orientation:portrait) {
 
@@ -398,6 +400,28 @@ p.jobDescription{
     -moz-transform: scale(1.05);
     transition: all 200ms ease-in;
     transform: scale(1.05);
+  }
+
+  .workItem:hover .workDesc {
+	margin-top:auto;
+  height:70px;
+	padding-top: 10px;
+  }
+
+  .workDesc {
+    width: 300px;
+    height: 0px;
+  	padding-top: 0px;
+    overflow:hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-top:300px;
+  	position:absolute;
+  	background: rgba(0, 0, 0, 0.5);
+  	text-align:center;
+  	color: #FFF;
   }
 }
 
