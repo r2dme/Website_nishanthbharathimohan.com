@@ -392,13 +392,13 @@ p.jobDescription{
     box-sizing: border-box;
     box-shadow: 0 15px 15px rgba(0,0,0,.08);
     overflow: hidden;
-    -webkit-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease;
     -webkit-transform: scale(1.05);
-    -ms-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease;
     -ms-transform: scale(1.05);
-    -moz-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease;
     -moz-transform: scale(1.05);
-    transition: all 200ms ease-in;
+    transition: all 200ms ease;
     transform: scale(1.05);
   }
 
@@ -412,10 +412,10 @@ p.jobDescription{
     height: 0px;
   	padding-top: 0px;
     overflow:hidden;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     margin-top:300px;
   	position:absolute;
   	background: rgba(0, 0, 0, 0.5);
