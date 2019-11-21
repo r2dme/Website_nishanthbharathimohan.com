@@ -403,7 +403,7 @@ p.jobDescription{
   }
 
   .workItem:hover .workDesc {
-	margin-top:-230px;
+	margin-top:220px;
   height:70px;
 	padding-top: 10px;
   }
