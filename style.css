@@ -403,9 +403,8 @@ p.jobDescription{
   }
 
   .workItem:hover .workDesc {
-	margin-top:-80px;
-  height:70px;
-	padding-top: 10px;
+	margin-top:-40px;
+  height:40px;
   }
 
   .workDesc {
@@ -413,10 +412,10 @@ p.jobDescription{
     height: 0px;
   	padding-top: 0px;
     overflow:hidden;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     margin-top:300px;
   	position:absolute;
   	background: rgba(0, 0, 0, 0.5);
