@@ -175,6 +175,7 @@ p.Degree{
 
 .workExp{
   padding-top: 90px;
+  display:inline-block;
 }
 
 .workPlace{
