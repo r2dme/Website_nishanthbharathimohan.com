@@ -214,7 +214,6 @@ p.jobDescription{
 
 /* media query for mobile screens */
 @media only screen and (max-width:425px), (orientation:portrait) {
-
   h1{
     font-family:'Montserrat',sans-serif;
     color: black;
