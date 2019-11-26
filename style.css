@@ -3,7 +3,7 @@ h1{
   font-family:'Montserrat',sans-serif;
   color: black;
   font-weight: 600;
-  font-size:3.37em;
+  font-size:3em;
   text-align: left;
   overflow:hidden;
 }
@@ -150,7 +150,7 @@ p.UniversityTitle{
 }
 
 p.Degree{
-  padding-left: 2.85em;
+  padding-left: 2.7em;
   margin-top: 0.6em;
   margin-bottom:1.25em;
 }
@@ -159,11 +159,11 @@ p.Degree{
 
 .workExp{
   padding-top: 90px;
-  display:inline-block;
+  /* display:inline-block; */
 }
 
 .workPlace{
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
 .sectionTitle{
@@ -194,10 +194,16 @@ p.jobDescription{
   margin-bottom:1.25em;
 }
 
-}
+
+
+
+
+
+/* ******************************************************************
+********************************************************************* */
 
 /* media query for mobile screens */
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:425px), (orientation:portrait) {
 
   h1{
     font-family:'Montserrat',sans-serif;
@@ -345,8 +351,21 @@ p.jobDescription{
     float: left;
     padding-left: 3.4em;
   }
+
+  .workDesc p{
+    font-size: 0.9em;
+    margin: 0.7em;
+    text-align: center;
+  }
+
 }
 
+
+
+
+
+/* ******************************************************************
+********************************************************************* */
 
 /* media query for screens larger than mobile*/
 @media only screen and (min-width:426px) {
@@ -359,6 +378,7 @@ p.jobDescription{
     display: none;
   }
 
+/*
   .profileImageMob{
     display: none;
   }
@@ -367,6 +387,7 @@ p.jobDescription{
     display: none;
   }
 
+*/
   .workExpMob{
     display: none;
   }
@@ -387,7 +408,6 @@ p.jobDescription{
     transform: scale(1);
   }
 
-/*
   .workItem:hover {
     margin: 20px;
     max-width: calc(100% * 1 / 4.7);
@@ -425,7 +445,11 @@ p.jobDescription{
   color: #FFF;
   }
 
-  */
+  .workDesc p{
+    font-size: 1em ;
+    margin: 0.7em;
+  }
+
 }
 
 @font-face {
