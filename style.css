@@ -257,7 +257,7 @@ p.jobDescription{
   }
 
   .desktopEmail{
-    display:none;
+    display:none !important;
   }
 
   .emailto{
