@@ -214,6 +214,7 @@ p.jobDescription{
 
 /* media query for mobile screens */
 @media only screen and (max-width:425px), (orientation:portrait) {
+
   h1{
     font-family:'Montserrat',sans-serif;
     color: black;
@@ -257,7 +258,7 @@ p.jobDescription{
   }
 
   .desktopEmail{
-    display:none !important;
+    display:none;
   }
 
   .emailto{
@@ -386,6 +387,7 @@ p.jobDescription{
     display: none;
   }
 
+/*
   .workItem:hover {
     margin: 20px;
     max-width: calc(100% * 1 / 4.7);
@@ -422,6 +424,8 @@ p.jobDescription{
   text-align:center;
   color: #FFF;
   }
+
+  */
 }
 
 @font-face {
