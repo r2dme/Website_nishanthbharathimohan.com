@@ -275,9 +275,13 @@ p{
   margin-right: 2em;
 }
 
+/*
 #socialImage:hover{
-  max-height: 4.9vh;
+  max-height: 5.2vh;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
+*/
 
 #copyrightsText{
   color: white;
