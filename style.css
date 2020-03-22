@@ -1,467 +1,289 @@
+body{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/**************************
++++++++++++Fonts+++++++++++
+**************************/
 
 h1{
-  font-family:'Montserrat',sans-serif;
-  color: black;
+  font-size: 8em;
+  font-family: Montserrat,sans-serif;
   font-weight: 600;
-  font-size:3em;
-  text-align: left;
-  overflow:hidden;
+  margin: auto;
 }
 
 h2{
-  font-family:'Montserrat',sans-serif;
-  color:black;
-  font-weight:600;
-  font-size:1.75em;
-  text-align: left;
-  width:100%;
+  font-size: 3.6em;
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  margin: auto;
+  line-height: 1;
+}
+
+h3{
+  font-size: 2.5em;
+  font-family: Montserrat,sans-serif;
+  font-weight: 200;
+  margin: auto;
 }
 
 h4{
-  font-family: 'Montserrat',sans-serif;
-  color: black;
-  font-weight: 400;
-  font-size: 1.25em;
-  overflow: hidden;
-  line-height: 1.7;
+  font-size: 2.2em;
+  font-family: Montserrat,sans-serif;
+  font-weight: 200;
+  margin: auto;
+}
+
+h5{
+  font-size: 1.1em;
+  font-family: Montserrat,sans-serif;
+  font-weight: 600;
+  margin: auto;
 }
 
 p{
-  font-family: 'Montserrat',sans-serif;
-  font-weight: 400;
-  font-size: 1.25em;
+  font-size: 1.08em;
+  font-family: Montserrat,sans-serif;
+  font-weight: 200;
+  margin: auto;
 }
 
-img{
-  max-width: 100%;
-  display: block;
-}
-
+/**************************
++++++++Main Divisions++++++
+**************************/
 .pageContainer{
-  margin-left: 7%;
-  margin-right: 7%;
-  padding-bottom: 20px;
-}
 
-.welcomeText{
-  max-width: 65%;
-}
-
-.introductionText{
-  max-width: 65%;
-}
-
-p.pageNavigation{
-  position: relative;
-  display: inline-block;
-  float: right;
-  margin-bottom: 0px;
-  margin-top: 10px;
-  color: black;
-}
-
-.emailto{
-  font-family: 'Montserrat',sans-serif;
-  color: black;
-  font-weight: 400;
-  font-size: 1.25em;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #000;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  text-decoration: none;
-  text-align: left;
-}
-
-.emailto:hover{
-  padding-bottom: 10px;
-  border-bottom-color: transparent;
-}
-
-img.logo{
-  display: inline-block;
 }
 
 .header{
-  padding-top: 20px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: black;
 }
 
-.heroWrapper{
-  padding-top: 166px;
-  padding-bottom: 200px;
+.introSection{
+  background-color: black;
+  border: none;
+  width: 100%;
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: block;
 }
 
-.workPreview{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
+.worksSection{
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+.contactSection{
+  background-color: #9AD8DD;
+  width: 100%;
+  float: left;
+  padding: 4% 10% 4% 10%;
+  display: block;
+  text-align: center;
 }
 
 .footer{
-  max-height: 130px;
+  background-color: black;
+  width: 100%;
+  float:left;
+  padding: 5% 10% 7.4% 10%;
+  display: block;
 }
 
-p.copyright{
-  margin-top: 80px;
-  text-align: right;
-  font-size: 0.9em;
+/**************************
++++++++Sub Divisions+++++++
+**************************/
+
+.logo_desk{
+  width: 8em;
+  padding: 2em 0 2em 0;
 }
 
-/* About page */
-.introDesk{
-  padding-top: 90px;
-  padding-left: 10%;
-  padding-right: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.landingtext{
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+
+/* background image for clipped text */
+.pageContainer:nth-child(1) h1{
+  background-image:url(images/landing_text_bg.jpg);
+}
+
+
+.landingImage{
+  width: 100%;
+  padding-top: 14%;
+  padding-bottom: 8%;
+}
+
+/* .landing_desktop{
+  max-height: 33vh;
+}
+*/
+
+.introText{
+  max-width: 60%;
+  display: inline-block;
+}
+
+.profileImage{
+  display: inline-block;
+  float: right;
 }
 
 .profileImageDesk{
-  max-width: 15em;
-  max-height:15em;
-  padding: 0% 10% 0% 10%;
+  height: 30em;
 }
 
-.aboutMeDesk{
-  text-align: center;
-  max-width: 90%;
+.linksSection{
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-/* Education Section */
-
-.Education{
-  padding-top: 90px;
-}
-
-.educationPlace{
-  padding-bottom: 2em;
-}
-
-img.UniversityLogo{
+.marker{
   display: inline-block;
 }
 
-p.UniversityTitle{
-  padding-left:1em;
-  display: inline;
-  vertical-align: super;
-}
-
-p.Degree{
-  padding-left: 2.7em;
-  margin-top: 0.6em;
-  margin-bottom:1.25em;
-}
-
-/* Work Section */
-
-.workExp{
-  padding-top: 90px;
-  /* display:inline-block; */
-}
-
-.workPlace{
-  padding-bottom: 3em;
-}
-
-.sectionTitle{
-  padding-bottom: 1em;
-}
-
-img.companyLogo{
+.linkItem{
   display: inline-block;
+  border-bottom: 0.1em solid #FFF;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  margin: 2em 0.5em 2em 0.5em;
 }
 
-p.companyTitle{
-  padding-left:1em;
-  display: inline;
-  vertical-align: super;
+.linkItem:hover{
+  border-bottom-color: transparent;
 }
 
-p.duration{
-  position: relative;
+.additionalText{
+  margin-bottom: 5em;
+}
+
+.worklist{
+  padding-bottom: 5em;
+}
+
+.workContainer{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.headingText{
+  margin: 0 0 5em 0;
+  padding-top: 5em;
+}
+
+.imageCarousel{
+  margin: 0 0 5em 0;
+}
+
+.detailsText{
+  display: inline-block;
+  max-width: 40%;
+}
+
+.descText{
+  max-width: 60%;
   display: inline-block;
   float: right;
-  margin-top: 6px;
-  margin-bottom: 0px;
 }
 
-p.jobDescription{
-  padding-left: 2.75em;
-  margin-top: 0.6em;
-  margin-bottom:1.25em;
+/**************************
+++++++++++++IDs++++++++++++
+**************************/
+
+#headTextWhite{
+  color: white;
 }
 
-
-
-
-
-
-/* ******************************************************************
-********************************************************************* */
-
-/* media query for mobile screens */
-@media only screen and (max-width:425px), (orientation:portrait) {
-
-  h1{
-    font-family:'Montserrat',sans-serif;
-    color: black;
-    font-weight: 600;
-    font-size:1.75em;
-    text-align: left;
-    overflow:hidden;
-  }
-
-  h2{
-    font-family:'Montserrat',sans-serif;
-    color:black;
-    font-weight:600;
-    font-size:1.13em;
-    text-align: left;
-    width:100%;
-  }
-
-  h4{
-    font-family: 'Montserrat',sans-serif;
-    color: black;
-    font-weight: 400;
-    font-size: 0.9em;
-    overflow: hidden;
-    line-height: 1.7;
-  }
-
-  p{
-    font-family: 'Montserrat',sans-serif;
-    color: black;
-    font-weight: 400;
-    font-size: 0.9em;
-  }
-
-  .welcomeText{
-    max-width: 75%;
-  }
-
-  .introductionText{
-    max-width: 75%;
-  }
-
-  .desktopEmail{
-    display:none;
-  }
-
-  .emailto{
-    font-family: 'Montserrat',sans-serif;
-    color: black;
-    font-weight: 400;
-    font-size: 0.9em;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000;
-    text-decoration: none;
-    text-align: left;
-  }
-
-  .heroWrapper{
-    padding-top: 110px;
-    padding-bottom: 150px;
-  }
-
-  .workPreview{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
-  .workItem{
-    margin: 25px 5px 25px 5px;
-    max-width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 15px 15px rgba(0,0,0,0.16);
-    overflow: hidden;
-  }
-
-  .logo{
-    width: 30px;
-    height:30px;
-  }
-
-  .footer{
-    height: 150px;
-  }
-
-  p.copyright{
-    margin-top: 80px;
-    text-align: center;
-    font-size: 0.7em;
-  }
-
-/* About page - mobile*/
-
-  .introDesk{
-    display: none;
-  }
-
-  .profileImageDesk{
-    display: none;
-  }
-
-  .aboutMeDesk{
-    display: none;
-  }
-
-  .introMob{
-    padding-top: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .profileImageMob{
-    max-width: 10em;
-    max-height: 10em;
-  }
-
-  .aboutMeMob{
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .workExp{
-    display: none;
-  }
-
-  .workExpMob{
-    display: inline-block;
-  }
-
-  p.jobDescription{
-    padding-left: 3.4em;
-    margin-top: 0.6em;
-    margin-bottom:1em;
-  }
-
-  p.duration{
-    display: block;
-    float: left;
-    padding-left: 3.4em;
-  }
-
-  .workDesc p{
-    font-size: 0.9em;
-    margin: 0.7em;
-    text-align: center;
-  }
-
+#markerwhite{
+  color: white;
 }
 
+#linkwhite{
+  color: white;
+}
 
+#detCatBlack{
+  display: inline-block;
+  margin: 0 1em 0.75em 0;
+}
 
+#bgBlack{
+  background-color: black;
+}
 
+#titleTextBlack{
+  color: black;
+  padding-bottom: 0.3em;
+}
 
-/* ******************************************************************
-********************************************************************* */
+#titleTextWhite{
+  color: white;
+  padding-bottom: 0.3em;
+}
 
-/* media query for screens larger than mobile*/
-@media only screen and (min-width:426px) {
+#detCatWhite{
+  color: white;
+  display: inline-block;
+  margin: 0 1em 0.75em 0;
+}
 
-  .mobileEmail{
-    display:none;
-  }
+#descWhite{
+  color: white;
+}
 
-  .introMob{
-    display: none;
-  }
+#contactText{
+  display: inline-block;
+  padding-right: 1.5em;
+}
 
-/*
-  .profileImageMob{
-    display: none;
-  }
-
-  .aboutMeMob{
-    display: none;
-  }
-
-*/
-  .workExpMob{
-    display: none;
-  }
-
-  .workItem{
-    margin: 20px;
-    max-width: calc(100% * 1 / 4.7);
-    box-sizing: border-box;
-    box-shadow: 0 15px 15px rgba(0,0,0,.08);
-    overflow: hidden;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-  }
-
-  .workItem:hover {
-    margin: 20px;
-    max-width: calc(100% * 1 / 4.7);
-    box-sizing: border-box;
-    box-shadow: 0 15px 15px rgba(0,0,0,.08);
-    overflow: hidden;
-    -webkit-transition: all 200ms ease;
-    -webkit-transform: scale(1.05);
-    -ms-transition: all 200ms ease;
-    -ms-transform: scale(1.05);
-    -moz-transition: all 200ms ease;
-    -moz-transform: scale(1.05);
-    transition: all 200ms ease;
-    transform: scale(1.05);
-  }
-
-  .workItem:hover .workDesc {
-	margin-top:-40px;
-  height:40px;
-  }
-
-  .workDesc {
-  width: 100%;
-  height: 0px;
-  padding-top: 0px;
-  overflow:hidden;
+#contactButton{
+  display: inline-block;
+  color: black;
+  border: 2px solid #000;
+  padding: 0.3em 0.5em 0.3em 0.5em;
   -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
   transition: all 200ms ease;
-  margin-top:300px;
-  position:absolute;
-  background: rgba(0, 0, 0, 0.5);
-  text-align:center;
-  color: #FFF;
-  }
-
-  .workDesc p{
-    font-size: 1em ;
-    margin: 0.7em;
-  }
-
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+#contactButton:hover{
+  color: white;
+  background-color: black;
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
+#footTextWhite{
+  color: white;
 }
+
+#socialImage{
+  margin-top: 1em;
+  max-height: 4.7vh;
+  margin-right: 2em;
+}
+
+#copyrightsText{
+  color: white;
+  padding-top: 1.5em;
+  float: right;
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+} */

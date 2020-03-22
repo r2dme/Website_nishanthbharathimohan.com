@@ -1,85 +1,200 @@
 <!DOCTYPE html>
 <html>
 
+<!--********************************************************************
+Personal site designed and developed by Nishanth Prabu Bharathimohan
+_______________________________**********_______________________________
+++++++++++++++++++++++++Hosted with ❤ on GitHub Pages+++++++++++++++++++
+*********************************************************************-->
+
+
 <head>
-<title>Nishanth,mate! 👽</title>
+<title>Nishanth here! 🛸</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<!-- Link Flickity Files -->
+<link rel="stylesheet" href="flickity/flickity.min.css" media="screen">
+<script src="flickity/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
-<!--Container for the whole page-->
-<div class=pageContainer>
+  <!-- Container for the whole page -->
+  <div class="pageContainer">
 
-<!--header-->
-<div class= "header">
-  <a href="index.html"><img class="logo" src="images/website_Logo.gif" alt="Website Logo" width="40" height="40"></a>
-  <a href="about.html"><p class=pageNavigation> about </p></a>
-</div>
+  <!-- header -->
+  <div class= "header">
+    <a href="index.html"><img class="logo_desk" src="images/website_logo_desk.png" alt="Website Logo"></a>
+    <!--<a href="about.html"><p class=pageNavigation> about </p></a>-->
+  </div>
 
-<!--welcome text-->
-<div class= "heroWrapper">
+  <!--********************************************************************
+  ______________________________Intro Section_____________________________
+  *********************************************************************-->
 
-<div class="images">
-  <img class="wavingGif"src="images/waving.gif" alt="Hello Waving GIF">
-</div>
+  <div class="introSection">
 
-<div class="welcomeText">
-  <h1>Hi there! I am Nishanth.<br>
-    Experience designer, developer,
-    and dog lover.</h1>
-</div>
-
-<div class="introductionText">
-  <h4>I believe in technology being a catalyst for human evolution. I contribute to it by designing good digital experiences. You could talk to me about space, sustainability, pop culture, consumer technology, and cricket all day.  </h4>
-</div>
-<br>
-<br>
-
-<!--email to-->
-<div class="desktopEmail">
-  <a href="mailto:hello@nishanthbharathimohan.com?subject=Hi%20Nishanth!" class="emailto"> hello@nishanthbharathimohan.com </a>
-</div>
-
-<div class="mobileEmail">
-  <a href="mailto:hello@nishanthbharathimohan.com?subject=Hi%20Nishanth!" class="emailto"> Say Hello!</a>
-</div>
-</div>
-
-<!--Second section container-->
-<div class="recentWorks">
-  <h2 class="sectionTitle"> Recent Works </h2>
-  <div class="workPreview">
-    <div class="workItem">
-      <img class="safeApp" src="images/app_SAFE_img.jpg">
-      <div class="workDesc"><p>App - S.A.F.E.</p></div>
+    <!-- Landing text -->
+    <div class= "landingImage">
+      <h1 class="landingtext">Keep <br>Exploring.<h1>
+      <!-- <img class="landing_desktop" src="images/landing_desk.png" alt="Keep Exploring" height="336px"> -->
     </div>
 
-    <div class="workItem">
-      <img class="oculusCase" src="images/oculus_case_img.jpg">
-      <div class="workDesc"><p>Case Study - Oculus</p></div>
+    <!-- Introduction -->
+    <div class="introText">
+      <h3 id="headTextWhite">I am Nishanth, a Human Centred Designer based in Perth, Australia. <br> <br> I build experiences and services connecting people to technology. I had the privilege to design UX/UI at Zolostays before. Currently, I pursue a Masters degree in Visualisation and Interactive Media at Curtin University. <br> <br> I care about our planet and the community where I live. I am interested in new technologies, sustainable living, and cricket. Also, a dog whisperer.</h3>
     </div>
 
-    <div class="workItem">
-      <img class="whatFork" src="images/website_whatfork_img.jpg">
-      <div class="workDesc"><p>Website - What the Fork</p></div>
+    <!-- Profile Image -->
+    <div class= "profileImage">
+      <img class="profileImageDesk" src="images/profile_image_desk.jpg" alt="Nishanth's Picture">
     </div>
 
-    <div class="workItem">
-      <img class="whatFork" src="images/VR_virtualfolio_img.jpg">
-      <div class="workDesc"><p>VR Experience - VirtualFolio</p></div>
+    <!-- Links -->
+    <div class = "linksSection">
+
+      <!-- Mail link -->
+      <h4 class="marker" id="markerwhite">--></h4>
+      <a href="mailto:hello@nishanthbharathimohan.com?subject=Hi%20Nishanth!" class="linkItem" id="emailLink"><h4 id="linkwhite">hello@nishanthbharathimohan.com</h4></a>
+      <br>
+
+      <!-- Linkedin link -->
+      <h4 class="marker" id="markerwhite">--></h4>
+      <a href="https://www.linkedin.com/in/nishanthprabu" class="linkItem" id="linkedinLink"><h4 id="linkwhite">Linkedin</h4></a>
+      <br>
+
+      <!-- Twitter link -->
+      <h4 class="marker" id="markerwhite">--></h4>
+      <a href="https://www.twitter.com/nishanth_prabu" class="linkItem" id="twitterLink"><h4 id="linkwhite">Twitter</h4></a>
+      <br>
+
+      <!-- GitHub link -->
+      <h4 class="marker" id="markerwhite">--></h4>
+      <a href="https://www.github.com/r2dme" class="linkItem" id="githubLink"><h4 id="linkwhite">GitHub</h4></a>
+      <br>
+    </div>
+
+    <!-- Additional text -->
+    <div class="additionalText">
+      <h3 id="headTextWhite">Some of my recent works are below.</h3>
     </div>
 
   </div>
-</div>
 
-<footer>
+  <!--********************************************************************
+  ______________________________Works Section_____________________________
+  *********************************************************************-->
+
+  <div class="worksSection">
+
+  <!-- Work 1-->
+  <div class="worklist" id="bgWhite">
+    <div class="workContainer" id="safeApp">
+
+      <!-- Heading -->
+      <div class="headingText">
+        <h2 id="titleTextBlack">S.A.F.E Augmented Reality App</>
+          <h3 id="titleTextBlack">Bringing workplace safety out of documents and training schedules. Look around you.</h3>
+        </div>
+
+        <!-- Image Carousel -->
+        <div class="imageCarousel">
+          <div class="carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell"><img src="images/safeImages_1.jpg" alt="S.A.F.E Screens" /></div>
+            <div class="carousel-cell"><img src="images/safeImages_1.jpg" alt="S.A.F.E Screens"/></div>
+          </div>
+        </div>
+
+        <!-- Details Text -->
+        <div class="detailsText">
+          <h5 id="detCatBlack">Category</h5>
+          <p id="detCatBlack">Mobile AR App</p>
+          <br>
+          <h5 id="detCatBlack">Technology</h5>
+          <p id="detCatBlack">Adobe XD, C# Programming, Unity, Vuforia</p>
+          <br>
+          <h5 id="detCatBlack">Date</h5>
+          <p id="detCatBlack">June 2019</p>
+        </div>
+
+        <!-- Description Text -->
+        <div class="descText">
+          <p id="descBlack">Creating an easy to use database of machinery safety, work place safety information accessible via AR, will provide a solution for this problem. Bringing workplace safety out of documents and training schedules. Look around you. Creating an easy to use database of machinery safety, work place safety information accessible via AR.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Work 2-->
+    <div class="worklist" id="bgBlack">
+      <div class="workContainer" id="vrFolio">
+
+        <!-- Heading -->
+        <div class="headingText">
+          <h2 id="titleTextWhite">VirtualFolio Virtual Reality Experience </>
+            <h3 id="titleTextWhite">Experience Artists & Artworks the way they are intended to be. Immersed.</h3>
+          </div>
+
+          <!-- Image Carousel -->
+          <div class="imageCarousel">
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+              <div class="carousel-cell"><img src="images/vrfoli_Images_1.jpg" alt="VR Folio Screens" /></div>
+              <div class="carousel-cell"><img src="images/vrfoli_Images_2.jpg" alt="VR Folio Screens" /></div>
+              <div class="carousel-cell"><img src="images/vrfoli_Images_3.jpg" alt="VR Folio Screens" /></div>
+              <div class="carousel-cell"><img src="images/vrfoli_Images_4.jpg" alt="VR Folio Screens" /></div>
+              <div class="carousel-cell"><img src="images/vrfoli_Images_5.jpg" alt="VR Folio Screens" /></div>
+            </div>
+          </div>
+
+          <!-- Details Text -->
+          <div class="detailsText">
+            <h5 id="detCatWhite">Category</h5>
+            <p id="detCatWhite">VR Application</p>
+            <br>
+            <h5 id="detCatWhite">Technology</h5>
+            <p id="detCatWhite">Unity, C# Programming, SteamVR, HTC Vive Pro</p>
+            <br>
+            <h5 id="detCatWhite">Date</h5>
+            <p id="detCatWhite">October 2019</p>
+          </div>
+
+          <!-- Description Text -->
+          <div class="descText">
+            <p id="descWhite">An immersive & interactive portfolio platform where works of artists can be experienced the way, they are intended to be. Provide a discoverable, social, user friendly, open and assisted web based platform where artists can host their works, for the user to experience it using VR.</p>
+          </div>
+
+        </div>
+      </div>
+
+  </div>
+
+  <!--********************************************************************
+  _____________________________Contact Section____________________________
+  *********************************************************************-->
+  <div class="contactSection">
+    <h3 id="contactText">Like my work?</h3>
+    <a href="mailto:hello@nishanthbharathimohan.com?subject=Hi%20Nishanth!" class="emailLink"><h3 id="contactButton">Say Hello</h3></a>
+  </div>
+  <!--********************************************************************
+  _________________________________Footer_________________________________
+  *********************************************************************-->
   <div class="footer">
-    <p class="copyright">Copyright 2019 Nishanth Prabu Bharathimohan </p>
+    <h5 id="footTextWhite">Follow Me</h5>
+    <br>
+    <!-- Social Links -->
+    <a href="https://www.instagram.com/r2dme/" class="githubLink"><img src="images/img_insta@2x.png" alt="Instagram" id="socialImage" /></a>
+    <a href="https://www.twitter.com/nishanth_prabu" class="githubLink"><img src="images/img_twitter@2x.png" alt="Twitter" id="socialImage" /></a>
+    <a href="https://www.facebook.com/r2dme/" class="githubLink"><img src="images/img_facebook@2x.png" alt="Facebook" id="socialImage" /></a>
+    <a href="https://www.github.com/r2dme" class="githubLink"><img src="images/img_github@2x.png" alt="GitHub" id="socialImage" /></a>
+    <a href="https://www.linkedin.com/in/nishanthprabu" class="githubLink"><img src="images/img_linkedin@2x.png" alt="Linkedin" id="socialImage" /></a>
+
+    <!-- Copyright text -->
+    <h5 id="copyrightsText">Copyright 2019 Nishanth Prabu Bharathimohan</>
   </div>
-</footer>
+
 </div>
+
 </body>
 
 </html>
