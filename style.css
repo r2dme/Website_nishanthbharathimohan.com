@@ -192,13 +192,14 @@ p{
 
 .detailsText{
   display: inline-block;
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .descText{
-  max-width: 60%;
+  max-width: 55%;
   display: inline-block;
   float: right;
+  line-height: 1.5;
 }
 
 /**************************
@@ -234,6 +235,13 @@ p{
 #titleTextWhite{
   color: white;
   padding-bottom: 0.3em;
+}
+
+#youtubeFrame{
+  position: relative;
+  display: block;
+  width: 83.8em;
+  height: 100%;
 }
 
 #detCatWhite{
