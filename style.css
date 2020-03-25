@@ -190,6 +190,22 @@ p{
   margin: 0 0 5em 0;
 }
 
+/* below idea sourced from the internet */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
 .detailsText{
   display: inline-block;
   max-width: 45%;
@@ -240,8 +256,6 @@ p{
 #youtubeFrame{
   position: relative;
   display: block;
-  width: 83.8em;
-  height: 100%;
 }
 
 #detCatWhite{
@@ -303,4 +317,3 @@ p{
   margin-right: auto;
   width: auto;
 } */
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 600px; }
