@@ -173,7 +173,7 @@ p{
 }
 
 .worklist{
-  padding-bottom: 5em;
+  padding-bottom: 7em;
 }
 
 .workContainer{
@@ -266,6 +266,12 @@ p{
 
 #descWhite{
   color: white;
+}
+
+#whatforkLink{
+  color: black;
+  color: black;
+  border-bottom: 1px solid #000;
 }
 
 #contactText{
