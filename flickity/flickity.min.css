@@ -13,21 +13,19 @@ body { font-family: sans-serif; }
   background: #EEE;
   max-width: auto;
   margin: auto;
-  height: auto;
+
 }
 
 .carousel-cell {
   width: auto;
-  height: auto;
-  margin-right: 10px;
+  height: 600px;  margin-right: 10px;
   /* background: #8C8; */
-  /* border-radius: 5px;
+  border-radius: 5px;
   counter-increment: carousel-cell;
 }
 
-
-/* cell number */
-/* .carousel-cell:after {
+/* cell number 
+.carousel-cell:after {
   display: block;
   text-align: center;
   content: counter(carousel-cell);
